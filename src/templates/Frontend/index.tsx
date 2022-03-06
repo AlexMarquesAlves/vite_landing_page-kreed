@@ -1,13 +1,13 @@
 import { ReactNode } from "react";
 
-import { Container } from "./styles";
+import * as S from "./styles";
 
 interface FrontendProps {
   children: ReactNode;
 }
 
 function Frontend({ children }: FrontendProps) {
-  return <Container>Teste Frontend {children}</Container>;
+  return <S.Container>Teste Frontend {children}</S.Container>;
 }
 
 export default Frontend;
