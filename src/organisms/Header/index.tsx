@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 // styled-components imports
 import { Container } from "./styles";
 // atoms imports
@@ -8,11 +7,7 @@ import Logo from "../../molecules/Logo";
 // organisms imports
 import Menu from "../Menu";
 
-interface HeaderProps {
-  children?: ReactNode;
-}
-
-function Header({ children }: HeaderProps) {
+function Header() {
   return (
     <Container>
       <Logo />

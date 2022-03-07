@@ -1,12 +1,6 @@
-import { ReactNode } from "react";
-
 import { ItemList, MenuList } from "./styles";
 
-interface MenuProps {
-  children?: ReactNode;
-}
-
-function Menu({ children }: MenuProps) {
+function Menu() {
   return (
     <MenuList>
       <ItemList>
@@ -24,7 +18,6 @@ function Menu({ children }: MenuProps) {
       <ItemList>
         <a href="#">Contact</a>
       </ItemList>
-      {children}
     </MenuList>
   );
 }
