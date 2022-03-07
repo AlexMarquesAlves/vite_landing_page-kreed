@@ -7,12 +7,7 @@ interface ButtonProps {
 }
 
 function Button({ children }: ButtonProps) {
-  return (
-    <Container>
-      <h1>Button</h1>
-      {children}
-    </Container>
-  );
+  return <Container>Enquiry{children}</Container>;
 }
 
 export default Button;

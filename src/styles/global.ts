@@ -17,7 +17,8 @@ const globalStyle = createGlobalStyle`
     }
 
     button {
-      background-color: none;
+      background-color: transparent;
+      font-family: 'Poppins';
       border: none;
       outline: none;
     }
