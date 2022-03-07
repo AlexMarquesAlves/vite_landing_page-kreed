@@ -1,6 +1,8 @@
 import { ReactNode } from "react";
-
+// styled-components imports
 import { Container } from "./styles";
+// molecules imports
+import Logo from "../../molecules/Logo";
 
 interface HeaderProps {
   children?: ReactNode;
@@ -9,7 +11,7 @@ interface HeaderProps {
 function Header({ children }: HeaderProps) {
   return (
     <Container>
-      <div className="logo">Logo</div>
+      <Logo />
       <div className="menu">Menu</div>
       <div className="button">Button</div>
     </Container>
