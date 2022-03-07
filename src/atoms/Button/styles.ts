@@ -9,4 +9,12 @@ export const Container = styled.button`
   color: #17a4d0;
   font-size: 0.875rem;
   margin-left: 1.5625rem;
+  box-shadow: 0px 0px 0px 0px #fff;
+  transition: 300ms all ease-out;
+
+  &:hover {
+    background: #17a4d0;
+    color: #fff;
+    box-shadow: 0px 0px 20px 0px #17a4d0;
+  }
 `;
