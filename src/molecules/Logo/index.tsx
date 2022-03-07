@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
-
 import { Container } from "./styles";
 
+import LogoHero from "../../assets/Logo.svg";
 interface LogoProps {
   children?: ReactNode;
 }
@@ -9,7 +9,7 @@ interface LogoProps {
 function Logo({ children }: LogoProps) {
   return (
     <Container>
-      <h1>Logo</h1>
+      <img src={LogoHero} alt="Logo" />
       {children}
     </Container>
   );
