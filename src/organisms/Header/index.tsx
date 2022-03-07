@@ -3,6 +3,8 @@ import { ReactNode } from "react";
 import { Container } from "./styles";
 // molecules imports
 import Logo from "../../molecules/Logo";
+// organisms imports
+import Menu from "../Menu";
 
 interface HeaderProps {
   children?: ReactNode;
@@ -12,7 +14,7 @@ function Header({ children }: HeaderProps) {
   return (
     <Container>
       <Logo />
-      <div className="menu">Menu</div>
+      <Menu />
       <div className="button">Button</div>
     </Container>
   );
