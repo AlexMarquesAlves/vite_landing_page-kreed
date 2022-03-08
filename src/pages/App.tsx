@@ -1,10 +1,20 @@
 import Frontend from "../templates/Frontend";
+import { Container } from "./styles";
 
 function App() {
   return (
-    <div className="App">
-      <Frontend>Template</Frontend>
-    </div>
+    <Frontend>
+      <Container>
+        <div>
+          <h1>Design driven development of your web product</h1>
+          <h6>
+            We are a full service digital agency that builds immesive user
+            experience.
+          </h6>
+        </div>
+        <div>coluna 2</div>
+      </Container>
+    </Frontend>
   );
 }
 
