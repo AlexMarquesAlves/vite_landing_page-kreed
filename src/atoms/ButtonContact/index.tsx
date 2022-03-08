@@ -1,18 +1,7 @@
-import { ReactNode } from 'react';
+import { Container } from "./styles";
 
-import { Container } from './styles';
-
-interface ButtonContactProps {
-  children: ReactNode;
+function ButtonContact() {
+  return <Container>Contact Us</Container>;
 }
-
-function ButtonContact({ children }: ButtonContactProps) {
-  return (
-    <Container>
-      <h1>ButtonContact</h1>
-      {children}
-    </Container>
-  );
-};
 
 export default ButtonContact;
