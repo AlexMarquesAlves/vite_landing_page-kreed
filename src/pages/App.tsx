@@ -1,3 +1,4 @@
+import ButtonContact from "../atoms/ButtonContact";
 import Frontend from "../templates/Frontend";
 import { Container } from "./styles";
 
@@ -11,6 +12,7 @@ function App() {
             We are a full service digital agency that builds immesive user
             experience.
           </h6>
+          <ButtonContact />
         </div>
         <div>coluna 2</div>
       </Container>
