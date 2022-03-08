@@ -22,3 +22,10 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const ImgColumn = styled.div`
+  text-align: right;
+  img {
+    margin-left: 112px;
+  }
+`;

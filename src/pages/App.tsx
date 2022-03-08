@@ -1,6 +1,7 @@
 import ButtonContact from "../atoms/ButtonContact";
 import Frontend from "../templates/Frontend";
-import { Container } from "./styles";
+import { Container, ImgColumn } from "./styles";
+import RectangleImg from "../assets/Rectangle3.svg";
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
           </h6>
           <ButtonContact />
         </div>
-        <div>coluna 2</div>
+
+        <ImgColumn>
+          <img src={RectangleImg} alt="A Woman using her tablet" />
+        </ImgColumn>
       </Container>
     </Frontend>
   );
